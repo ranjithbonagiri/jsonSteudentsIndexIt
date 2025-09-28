@@ -2,5 +2,13 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
+    <content>
+    <Label text="Person Name"/>
+    <Input enabled="false" value="{jModel>/RollNo}---{jModel>/Name}"/>
+    <Label text="English Marks "/>
+    <Input  value="{jModel>/Subjects/0/Philosophy/0/EnglishHonors}"/>
+
+    
+    </content>
     </Page>
 </mvc:View>
