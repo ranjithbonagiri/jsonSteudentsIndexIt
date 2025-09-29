@@ -37,7 +37,9 @@ sap.ui.define([
              var jmodel = new JSONModel();
             jmodel.setData(studentData);
 
-            this.getView().setModel(jmodel,"jsonModel")
+          //  this.getView().setModel(jmodel,"jsonModel")
+          this.getView().setModel(jmodel,"jModel")
+
 
         }
     });
