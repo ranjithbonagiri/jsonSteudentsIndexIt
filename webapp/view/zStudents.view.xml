@@ -4,9 +4,9 @@
     <Page id="page" title="{i18n>title}">
     <content>
     <Label text="Person Name"/>
-    <Input enabled="false" value="{jModel>/RollNo}---{jModel>/Name}"/>
+    <Input enabled="false" value="{jsonModel>/RollNo}---{jsonModel>/Name}"/>
     <Label text="English Marks "/>
-    <Input  value="{jModel>/Subjects/0/Philosophy/0/EnglishHonors}"/>
+    <Input  value="{jsonModel>/Subjects/0/Philosophy/0/EnglishHonors}"/>
 
     
     </content>
